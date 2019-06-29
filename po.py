@@ -1,8 +1,8 @@
 import math
-n=int(input())
+m=int(input())
 l=list(map(int,input().split()))
 s=0
-for i in range(n):
+for i in range(m):
     s=s+l[i]
-s=s/n
+s=s/m
 print(math.floor(s))
