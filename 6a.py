@@ -1,3 +1,3 @@
 b=input()
-for y in b:
-  print(y,end=" ")
+for x in b:
+  print(x,end=" ")
